@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860080881719",
+    "firebase_url": "https://eudeka-comp-10a7a.firebaseio.com",
+    "project_id": "eudeka-comp-10a7a",
+    "storage_bucket": "eudeka-comp-10a7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860080881719:android:6b4ba5e7c6bb470e4f7fb2",
+        "android_client_info": {
+          "package_name": "com.example.eudeka_comp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860080881719-0tukfbtusiqe9c9kr58r8lnpldj3gueh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eudeka_comp",
+            "certificate_hash": "de6b403869aba450642cd10abd11935d9ba45715"
+          }
+        },
+        {
+          "client_id": "860080881719-g2n2oauc96erfg5eqeagl13gv2h6o2d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5xx7-p5B69geoeGCyR1d4QpJeowYy08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860080881719-g2n2oauc96erfg5eqeagl13gv2h6o2d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
