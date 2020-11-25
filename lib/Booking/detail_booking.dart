@@ -225,40 +225,36 @@ class _DetailBookingState extends State<DetailBooking> {
                   fontFamily: 'Poppins',
                   color: Colors.grey)),
         ),
-        // Row(
-        //   children: [
-        //     CheckboxListTile(
-        //         controlAffinity: ListTileControlAffinity.leading,
-        //         title: Text(
-        //           'Laki - Laki',
-        //           style: TextStyle(
-        //               fontSize: 15, fontFamily: 'Poppins', color: Colors.grey),
-        //         ),
-        //         value: _checkedLK,
-        //         onChanged: (value) {
-        //           setState(() {
-        //             _checkedLK = value;
-        //           });
-        //         }),
-        //     Expanded(
-        //       child: CheckboxListTile(
-        //           controlAffinity: ListTileControlAffinity.leading,
-        //           title: Text(
-        //             'Perempuan',
-        //             style: TextStyle(
-        //                 fontSize: 15,
-        //                 fontFamily: 'Poppins',
-        //                 color: Colors.grey),
-        //           ),
-        //           value: _checkedPr,
-        //           onChanged: (value) {
-        //             setState(() {
-        //               _checkedPr = value;
-        //             });
-        //           }),
-        //     ),
-        //   ],
-        // ),
+        CheckboxListTile(
+                controlAffinity: ListTileControlAffinity.leading,
+                title: Text(
+                  'Laki - Laki',
+                  style: TextStyle(
+                      fontSize: 15, fontFamily: 'Poppins', color: Colors.grey),
+                ),
+                value: _checkedLK,
+                onChanged: (value) {
+                  setState(() {
+                    _checkedLK = value;
+                  });
+                }),
+            Expanded(
+              child: CheckboxListTile(
+                  controlAffinity: ListTileControlAffinity.leading,
+                  title: Text(
+                    'Perempuan',
+                    style: TextStyle(
+                        fontSize: 15,
+                        fontFamily: 'Poppins',
+                        color: Colors.grey),
+                  ),
+                  value: _checkedPr,
+                  onChanged: (value) {
+                    setState(() {
+                      _checkedPr = value;
+                    });
+                  }),
+            ),
         SizedBox(
           height: 2,
         ),
